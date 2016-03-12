@@ -36,10 +36,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/nexus/prebuilt/etc/init.purenexus.rc:root/init.purenexus.rc
 
-# Extra tools
-PRODUCT_PACKAGES += \
-    htop
-
 # Backup Tool
 PRODUCT_COPY_FILES += \
     vendor/nexus/prebuilt/bin/backuptool.sh:install/bin/backuptool.sh \
