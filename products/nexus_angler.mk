@@ -33,6 +33,5 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 # Addtional backup tools for dirty flash
 PRODUCT_COPY_FILES += \
-    vendor/nexus/prebuilt/common/genericdevice/addon.d/71-layers.sh:system/addon.d/71-layers.sh \
     vendor/nexus/prebuilt/common/genericdevice/addon.d/99-dpi.sh:system/addon.d/99-dpi.sh \
     vendor/nexus/prebuilt/common/genericdevice/addon.d/91-font.sh:system/addon.d/91-font.sh
