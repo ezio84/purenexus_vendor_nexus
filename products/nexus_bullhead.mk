@@ -30,3 +30,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=bullhead \
     BUILD_FINGERPRINT=google/bullhead/bullhead:6.0.1/MTC19V/2862947:user/release-keys \
     PRIVATE_BUILD_DESC="bullhead-user 6.0.1 MTC19V 2862947 release-keys"
+
+# Addtional backup tools for dirty flash
+PRODUCT_COPY_FILES += \
+    vendor/nexus/prebuilt/common/genericdevice/addon.d/99-dpi.sh:system/addon.d/99-dpi.sh \
+    vendor/nexus/prebuilt/common/genericdevice/addon.d/91-font.sh:system/addon.d/91-font.sh

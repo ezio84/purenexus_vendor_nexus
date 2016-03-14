@@ -30,3 +30,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=fugu \
     BUILD_FINGERPRINT=google/fugu/fugu:6.0.1/MOB30M/2862625:user/release-keys \
     PRIVATE_BUILD_DESC="fugu-user 6.0.1 MOB30M 2862625 release-keys"
+
+# Addtional backup tools for dirty flash
+PRODUCT_COPY_FILES += \
+    vendor/nexus/prebuilt/common/genericdevice/addon.d/71-layers.sh:system/addon.d/71-layers.sh \
+    vendor/nexus/prebuilt/common/genericdevice/addon.d/99-dpi.sh:system/addon.d/99-dpi.sh \
+    vendor/nexus/prebuilt/common/genericdevice/addon.d/91-font.sh:system/addon.d/91-font.sh
