@@ -31,6 +31,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     BUILD_FINGERPRINT=google/hammerhead/hammerhead:6.0.1/MMB29V/2554798:user/release-keys \
     PRIVATE_BUILD_DESC="hammerhead-user 6.0.1 MMB29V 2554798 release-keys"
 
-# Layers Backup
+# Addtional backup tools for dirty flash
 PRODUCT_COPY_FILES += \
-    vendor/nexus/prebuilt/common/hammerhead/addon.d/71-layers.sh:system/addon.d/71-layers.sh
+    vendor/nexus/prebuilt/common/genericdevice/addon.d/71-layers.sh:system/addon.d/71-layers.sh \
+    vendor/nexus/prebuilt/common/genericdevice/addon.d/99-dpi.sh:system/addon.d/99-dpi.sh \
+    vendor/nexus/prebuilt/common/genericdevice/addon.d/91-font.sh:system/addon.d/91-font.sh
