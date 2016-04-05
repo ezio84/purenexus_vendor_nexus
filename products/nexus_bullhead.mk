@@ -28,8 +28,8 @@ PRODUCT_MANUFACTURER := LGE
 # Device Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=bullhead \
-    BUILD_FINGERPRINT=google/bullhead/bullhead:6.0.1/MHC19J/2595691:user/release-keys \
-    PRIVATE_BUILD_DESC="bullhead-user 6.0.1 MHC19J 2595691 release-keys"
+    BUILD_FINGERPRINT=google/bullhead/bullhead:6.0.1/MHC19Q/2705526:user/release-keys \
+    PRIVATE_BUILD_DESC="bullhead-user 6.0.1 MHC19Q 2705526 release-keys"
 
 # Addtional backup tools for dirty flash
 PRODUCT_COPY_FILES += \
