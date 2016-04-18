@@ -27,8 +27,7 @@ PRODUCT_COPY_FILES += \
 # Optional Packages
 PRODUCT_PACKAGES += \
     Browser \
-    Busybox \
-    LockClock
+    Busybox
 
 # SuperSU FTW
 PRODUCT_COPY_FILES += \
