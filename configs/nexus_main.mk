@@ -24,8 +24,7 @@ PRODUCT_PACKAGES += \
 
 #Custom Packages
 PRODUCT_PACKAGES += \
-    PureTools \
-    LockClock
+    PureTools
 
 # Busybox
 PRODUCT_PACKAGES += \
