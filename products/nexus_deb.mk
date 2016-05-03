@@ -28,8 +28,8 @@ PRODUCT_MANUFACTURER := asus
 # Device Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=razorg \
-    BUILD_FINGERPRINT=google/razorg/deb:6.0.1/MMB29V/2554798:user/release-keys \
-    PRIVATE_BUILD_DESC="razorg-user 6.0.1 MMB29V 2554798 release-keys"
+    BUILD_FINGERPRINT=google/razorg/deb:6.0.1/MOB30J/2775141:user/release-keys \
+    PRIVATE_BUILD_DESC="razorg-user 6.0.1 MOB30J 2775141 release-keys"
 
 # Addtional backup tools for dirty flash
 PRODUCT_COPY_FILES += \
