@@ -25,6 +25,12 @@ PRODUCT_DEVICE := molly
 PRODUCT_MODEL := ADT-1
 PRODUCT_MANUFACTURER := Google
 
+# Addtional backup tools for dirty flash
+PRODUCT_COPY_FILES += \
+    vendor/nexus/prebuilt/common/genericdevice/addon.d/71-layers.sh:system/addon.d/71-layers.sh \
+    vendor/nexus/prebuilt/common/genericdevice/addon.d/99-dpi.sh:system/addon.d/99-dpi.sh \
+    vendor/nexus/prebuilt/common/genericdevice/addon.d/91-font.sh:system/addon.d/91-font.sh
+
 # Device Fingerprint
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=molly \
@@ -33,9 +39,3 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 
 PRODUCT_COPY_FILES += \
     vendor/nexus/prebuilt/bootanimation/molly.zip:system/media/bootanimation.zip
-
-# Addtional backup tools for dirty flash
-PRODUCT_COPY_FILES += \
-    vendor/nexus/prebuilt/common/genericdevice/addon.d/71-layers.sh:system/addon.d/71-layers.sh \
-    vendor/nexus/prebuilt/common/genericdevice/addon.d/99-dpi.sh:system/addon.d/99-dpi.sh \
-    vendor/nexus/prebuilt/common/genericdevice/addon.d/91-font.sh:system/addon.d/91-font.sh
