@@ -25,8 +25,7 @@ PRODUCT_PACKAGES += \
 
 #Custom Packages
 PRODUCT_PACKAGES += \
-    masquerade \
-    PureTools
+    masquerade
 
 # Busybox
 PRODUCT_PACKAGES += \
